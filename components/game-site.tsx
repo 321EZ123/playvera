@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, ChevronRight, ChevronLeft } from "lucide-react";
+import { Search, ChevronRight, ChevronLeft, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
@@ -477,6 +477,38 @@ export function GameSiteComponent() {
           </Button>
         </div>
       </header>
+      <section className="relative bg-gradient-to-r from-[#4A2511] to-[#2C1A0E] p-12 mb-8 overflow-hidden">
+        <div className="max-w-6xl mx-auto relative z-10">
+          <h2 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-amber-100">
+            Vera
+          </h2>
+          <p className="text-2xl mb-6 max-w-2xl">
+            Experience gaming like never before with our lightning-fast platform
+          </p>
+          <a href="/all">
+            <Button className="bg-green-500 text-[#2C1A0E] hover:bg-green-600 text-lg px-8 py-3 rounded-full shadow-lg transform transition hover:scale-105">
+              <Zap className="mr-2 h-5 w-5" />
+              PLAY NOW!
+            </Button>
+          </a>
+        </div>
+        <div className="absolute top-0 right-0 w-1/2 h-full">
+          <div className="w-full h-full bg-gradient-to-l from-green-500/20 to-transparent transform skew-x-12"></div>
+        </div>
+        <div className="absolute bottom-0 left-0 w-full h-1/2">
+          <svg
+            viewBox="0 0 1440 320"
+            className="w-full h-full"
+            preserveAspectRatio="none"
+          >
+            <path
+              fill="rgba(52, 211, 153, 0.1)"
+              fillOpacity="1"
+              d="M0,32L48,80C96,128,192,224,288,224C384,224,480,128,576,90.7C672,53,768,75,864,96C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
       <main className="p-4 space-y-8">
         {gameCategories.map((category, index) => (
           <section key={index}>
