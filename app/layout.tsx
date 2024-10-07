@@ -26,6 +26,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Vera" />
+        <meta
+          name="description"
+          content="Your number #1 spot for the best un blocked g ames! Enjoy hundreds of your latest and greatest g ames at playvera.co"
+        />
+
+        <title>Vera</title>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4577611633119013"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <CSPostHogProvider>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
