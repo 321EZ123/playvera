@@ -263,7 +263,7 @@ const gameCategories: GameCategory[] = [
         description:
           "FNAF 2 is a survival horror game designed with simple gameplay. In Five Nights At Freddy's, the player takes the role of a night-time security employee.",
         type: "html",
-        source: "./static/fnaf2/index.html",
+        source: "./static/FNAF2/index.html",
       },
       {
         title: "Five Nights at Freddy's 3",
@@ -271,7 +271,7 @@ const gameCategories: GameCategory[] = [
         description:
           "FNAF 3 is a survival horror game designed with simple gameplay. In Five Nights At Freddy's, the player takes the role of a night-time security employee.",
         type: "html",
-        source: "./static/fnaf3/index.html",
+        source: "./static/FNAF3/index.html",
       },
       {
         title: "Five Nights at Freddy's 4",
@@ -279,7 +279,7 @@ const gameCategories: GameCategory[] = [
         description:
           "FNAF 4 is a survival horror game designed with simple gameplay. In Five Nights At Freddy's, the player takes the role of a night-time security employee.",
         type: "html",
-        source: "./static/fnaf4/index.html",
+        source: "./static/FNAF4/index.html",
       },
       {
         title: "Worlds Hardest Game",
