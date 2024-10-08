@@ -483,7 +483,9 @@ export function GameSiteComponent() {
             Vera
           </h2>
           <p className="text-2xl mb-6 max-w-2xl">
-            Experience gaming like never before with our lightning-fast platform
+            Experience gaming like never before with our lightning-fast
+            platform. Join our discord for more links if this one gets blocked!
+            (ps. bottom of the page)
           </p>
           <a href="/all">
             <Button className="bg-green-500 text-[#2C1A0E] hover:bg-green-600 text-lg px-8 py-3 rounded-full shadow-lg transform transition hover:scale-105">
